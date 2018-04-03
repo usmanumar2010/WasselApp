@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "572514882565",
+    "firebase_url": "https://wassel-2a27e.firebaseio.com",
+    "project_id": "wassel-2a27e",
+    "storage_bucket": "wassel-2a27e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572514882565:android:11188631df9afdcd",
+        "android_client_info": {
+          "package_name": "solutions.webdealer.project.wassel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572514882565-91je0ktldqmpib9pkt0jtcdihrjgvu7k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "solutions.webdealer.project.wassel",
+            "certificate_hash": "6860dd63bceac7ced0cf3e89a222a4805a766871"
+          }
+        },
+        {
+          "client_id": "572514882565-2rg3u2e3i3jo1qsf3qc2o18oau2ibqnr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYOMERizXU8FUKxeBYu79uofBj-1NyuA4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572514882565-2rg3u2e3i3jo1qsf3qc2o18oau2ibqnr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

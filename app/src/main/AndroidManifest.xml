@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="solutions.webdealer.project.wassel">
+
+    <permission
+        android:name="com.vallabh.googlemapspractice.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="solutions.webdealer.project.wassel.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/applogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- android:name="android.support.multidex.MultiDexApplication"> -->
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="a36720de38234310c8f75f493bc129c125c91230" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.landing.SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.registrations.LogIn"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.registrations.RegisterMain"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.registrations.RegisterUser"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activities.registrations.RegisterDriver"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name=".activities.navigations.NavigationUser"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.navigations.NavigationDriver"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.verifications.MobileVerification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.registrations.ForgotPassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.verifications.LisenceVehicleVerification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.order.MainCategories"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.order.RestaurantsList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.order.DeliveryBusinessOrder"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.order.SimplePlaceOrder"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.setting.ChangePassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.Report.Report"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.verifications.CheckApprovedStatus"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.history.SingleOrderHistory"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".services.LocationChangeService"
+            android:enabled="true" />
+        <service
+            android:name=".services.FirebaseMessagingService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".services.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".fragments.order.OrderStartedUserActivity" />
+        <activity android:name=".fragments.order.OrderStartedDriverActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

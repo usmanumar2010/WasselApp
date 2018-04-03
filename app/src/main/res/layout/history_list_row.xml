@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/layout_border"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp">
+
+    <TextView
+        android:id="@+id/tv_typeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Driver Name"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tv_typeName"
+        android:gravity="right"
+        android:text="Khurram"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_cn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_typeName"
+        android:layout_marginTop="5dp"
+        android:text="Contact Number"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_contactNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_typeName"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/tv_cn"
+        android:gravity="right"
+        android:text="12345"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_ct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_cn"
+        android:layout_marginTop="5dp"
+        android:text="Category"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_cn"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/tv_ct"
+        android:gravity="right"
+        android:text="GROCERY"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_pr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_ct"
+        android:layout_marginTop="5dp"
+        android:text="Price"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_ct"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/tv_ct"
+        android:gravity="right"
+        android:text="112"
+        android:textSize="20sp" />
+
+    <RatingBar
+    android:id="@+id/rb_rating"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/tv_pr"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="0dp"
+    android:focusable="false"
+    android:numStars="5"
+    android:scaleX=".7"
+    android:scaleY=".7"
+    android:stepSize="0.5"
+    android:theme="@style/RatingBar"
+    android:transformPivotX="120dp"
+    android:transformPivotY="30dp" />
+
+</RelativeLayout>

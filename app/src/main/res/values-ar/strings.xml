@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">واصل</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="logIn">تسجيل الدخول</string>
+    <string name="hintEmail">البريد الإلكتروني</string>
+    <string name="hintPassword">كلمه السر</string>
+    <string name="forgotPassword">نسيت كلمة السر؟</string>
+    <string name="signIn">تسجيل الدخول</string>
+    <string name="or">أو</string>
+    <string name="signUp">سجل</string>
+    <string name="signUpAs">الاشتراك ك</string>
+    <string name="signUpUsing">الاشتراك باستخدام</string>
+    <string name="user">زبون</string>
+    <string name="driver">سائق</string>
+    <string name="enterEmail">أدخل البريد الإلكتروني المسجل أدناه</string>
+    <string name="sendInstructions">وسوف نرسل لك تعليمات</string>
+    <string name="registeredEmail">بريد الكتروني مسجل</string>
+    <string name="submit">عرض</string>
+
+    <string name="alreadyMember">عضوا فعلا، </string>
+    <string name="firstName">الاسم الاول* </string>
+    <string name="lastName">الكنية* </string>
+    <string name="emailId">البريد الإلكتروني* </string>
+    <string name="password">كلمه السر* </string>
+    <string name="confirmPassword">تأكيد كلمة المرور* </string>
+    <string name="mobile">التليفون المحمول* </string>
+    <string name="city">مدينة* </string>
+    <string name="terms">لقد قرأت وأوافق على <u><font color="black">الأحكام والشروط </font></u>مطلوب لهذا التسجيل.</string>
+    <string name="register">تسجيل</string>
+
+    <string name="medina">المدينة المنورة</string>
+    <string name="jaddah">جدة</string>
+    <string name="jazan">جازان</string>
+    <string name="riyadh">مدينة الرياض</string>
+
+    <string name="requests">طلبات</string>
+    <string name="orders">أوامر</string>
+    <string name="history">التاريخ</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="account">الحساب</string>
+    <string name="logout">الخروج</string>
+    <string name="ksa">السعودية</string>
+
+    <string name="home">منزل</string>
+    <string name="noRequestPost">ليس لديك أي طلب تم نشره</string>
+    <string name="postOrderRequest">طلب طلب آخر</string>
+    <string name="category">الفئة</string>
+    <string name="restaurants">مطاعم</string>
+    <string name="grocery">محلات البقالة</string>
+    <string name="delivery">تسليم الأعمال</string>
+    <string name="pharma">الصيدليات</string>
+
+    <string name="profilePic">الصوره الشخصيه</string>
+    <string name="changePhoto">غير الصوره</string>
+    <string name="edit">تصحيح</string>
+    <string name="save">حفظ</string>
+
+    <string name="somethingWrong">هناك خطأ ما</string>
+    <string name="networkError">خطأ في الشبكة</string>
+    <string name="emptyField">يرجى ملء الحقول الفارغة</string>
+    <string name="invalidEmail">البريد الإلكتروني غير صالح</string>
+    <string name="wait">أرجو الإنتظار...</string>
+    <string name="loginSuccess">تسجيل الدخول بنجاح</string>
+    <string name="emailPasswordIncorrect">البريد الإلكتروني أو كلمة المرور ليست صحيحة</string>
+
+</resources>

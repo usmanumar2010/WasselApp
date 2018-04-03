@@ -1,0 +1,129 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        tools:context="solutions.webdealer.project.wassel.activities.order.DeliveryBusinessOrder">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Delivery Business"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Delivery of your products at your door step"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Pick Up Address"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/iv_sourceImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/gps_icon"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_sourceAddress"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="20dp"
+            android:enabled="false"
+            android:background="@drawable/edit_text_block_design"
+            android:hint="Pick Up Address"
+            android:focusable="false"
+            android:padding="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Drop off Address"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/iv_destImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/gps_icon"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_destAddress"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="20dp"
+            android:focusable="false"
+            android:enabled="false"
+            android:focusableInTouchMode="false"
+            android:background="@drawable/edit_text_block_design"
+            android:hint="Destination Address"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/et_order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edit_text_block_design"
+            android:gravity="top"
+            android:hint="DETAIL ABOUT YOUR ORDER..."
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:maxLines="5"
+            android:padding="5dp" />
+
+        <Button
+            android:id="@+id/bt_postOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/driver_button_design"
+            android:text="Post Order"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_log_in"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:paddingTop="20dp"
+    tools:context="solutions.webdealer.project.wassel.activities.registrations.LogIn">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/applogo" />
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="10dp"
+        android:text="@string/logIn"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/tv_login"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_design"
+        android:gravity="center"
+        android:hint="@string/hintEmail"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="5dp"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorSilver" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/et_email"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_design"
+        android:gravity="center"
+        android:hint="@string/hintPassword"
+        android:inputType="textPassword"
+        android:paddingLeft="5dp"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorSilver" />
+
+    <TextView
+        android:id="@+id/tv_forgotPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_password"
+        android:layout_marginTop="10dp"
+        android:gravity="end"
+        android:text="@string/forgotPassword"
+        android:textAlignment="textEnd" />
+
+    <Button
+        android:id="@+id/bt_signIn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/tv_forgotPassword"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/driver_button_design"
+        android:text="@string/signIn"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:id="@+id/tv_OR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_signIn"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/or"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/bt_signUp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/tv_OR"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/user_button_design"
+        android:text="@string/signUp"
+        android:textAllCaps="true" />
+
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Wassel</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="logIn">Log In</string>
+    <string name="hintEmail">email</string>
+    <string name="hintPassword">password</string>
+    <string name="forgotPassword">Forgot Password ?</string>
+    <string name="signIn">Sign In</string>
+    <string name="or">OR</string>
+    <string name="signUp">Sign Up</string>
+    <string name="signUpAs">Sign Up As</string>
+    <string name="signUpUsing">Sign Up Using</string>
+    <string name="user">User</string>
+    <string name="driver">Driver</string>
+    <string name="enterEmail">Enter registered email below</string>
+    <string name="sendInstructions">and we will send you instructions</string>
+    <string name="registeredEmail">registered email</string>
+    <string name="submit">Submit</string>
+    <string name="alreadyMember"> ALREADY A MEMBER, </string>
+    <string name="firstName">First Name*</string>
+    <string name="lastName">Last Name*</string>
+    <string name="emailId">Email ID*</string>
+    <string name="password">Password*</string>
+    <string name="confirmPassword">Confirm Password*</string>
+    <string name="mobile">Mobile #*</string>
+    <string name="city">City*</string>
+    <string name="terms">I have read and agree to <u><font color="black">Terms and Conditions</font></u> required for this Registration.</string>
+    <string name="register">Register</string>
+    <string name="medina">Al Medina</string>
+    <string name="jaddah">Jeddah</string>
+    <string name="jazan">Jazan</string>
+    <string name="riyadh">Riyadh</string>
+    <string name="requests">Requests</string>
+    <string name="orders">Orders</string>
+    <string name="history">History</string>
+    <string name="profile">Profile</string>
+    <string name="account">Account</string>
+    <string name="logout">Logout</string>
+    <string name="ksa">KSA</string>
+
+    <!--    <string name=""></string>-->
+    <string name="home">Home</string>
+    <string name="noRequestPost">You have no Request posted</string>
+    <string name="postOrderRequest">Post Order Request</string>
+    <string name="category">Category</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="grocery">Grocery Stores</string>
+    <string name="delivery">Delivery Business</string>
+    <string name="pharma">Pharmacies</string>
+
+    <string name="profilePic">Profile Picture</string>
+    <string name="changePhoto">Change Photo</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+
+    <!--Toast Messages-->
+
+    <string name="somethingWrong">something went wrong</string>
+    <string name="networkError">network error</string>
+    <string name="emptyField">please fill empty fields</string>
+    <string name="invalidEmail">email not valid</string>
+    <string name="wait">please wait...</string>
+    <string name="loginSuccess">Login Successfully</string>
+    <string name="emailPasswordIncorrect">email or password is not correct</string>
+
+
+    <string name="mobile_verif">If you dont recieve code<u><font color="blue"> CLICK HERE</font></u> to Resend code.</string>
+    <string name="facebook_app_id">350874588658564</string>
+    <string name="fb_login_protocol_scheme">fbAPP_ID</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_google_map">Map</string>
+    <string name="title_activity_basic_demo">BasicDemo</string>
+
+</resources>
